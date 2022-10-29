@@ -92,10 +92,12 @@ p{
 .header{
    background: radial-gradient(#51414f,#483248);
    background-image: url("images/backdrop.jpg");
-   background-position: center;
-   background-size: contain;
+   background-position: 0% 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   max-height: 695px;
    height: 100%;
-   width: 100%
+   width: 100%;
 }
 
 .categories{
